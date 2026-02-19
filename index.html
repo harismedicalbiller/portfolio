@@ -89,7 +89,6 @@
             transform: translateY(-8px);
             border-color: #38bdf8;
         }
-        /* Hide elements before animation runs to prevent flickering */
         .opacity-0 { opacity: 0; }
     </style>
 </head>
@@ -111,6 +110,86 @@
                     </div>
                 </div>
             </div>
+        </div>
+    </nav>
+
+    <section class="pt-32 pb-20 px-4 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between min-h-screen">
+        <div class="md:w-1/2 mt-10 md:mt-0 z-10 opacity-0 animate-fade-in-right" style="animation-delay: 0.2s;">
+            <p class="text-xl text-gray-400 mb-4 font-medium">Hi 👋, I'm Muhammad Haris</p>
+            
+            <h1 class="text-7xl md:text-8xl font-black mb-0 leading-none text-stroke tracking-tighter">
+                MEDICAL
+            </h1>
+            <h1 class="text-6xl md:text-8xl font-black mb-6 leading-none gradient-text tracking-tighter">
+                BILLING EXPERT
+            </h1>
+            
+            <p class="text-lg text-gray-400 max-w-lg leading-relaxed mt-6">
+                Transforming denials into dollars with a seamless Revenue Cycle Management experience for US healthcare providers.
+            </p>
+        </div>
+        
+        <div class="md:w-1/2 flex justify-center md:justify-end opacity-0 animate-fade-in-left" style="animation-delay: 0.4s;">
+            <div class="relative w-80 h-80 md:w-[450px] md:h-[450px] flex justify-center items-center bg-gradient-to-t from-sky-900/40 to-transparent rounded-full border border-gray-800">
+                <div class="absolute inset-0 bg-sky-500/20 rounded-full blur-[100px]"></div>
+                <img src="Media.jpeg" alt="Muhammad Haris" class="relative z-10 w-full h-full object-contain drop-shadow-2xl p-4">
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 bg-[#050b14]">
+        <div class="max-w-7xl mx-auto px-4">
+            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">PROJECTS</h3>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-right" data-aos-delay="100">My Recent Work</h2>
+            <p class="text-gray-400 mb-12" data-aos="fade-right" data-aos-delay="200">Here are a few past billing integration projects I've worked on</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-duration="800">
+                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
+                        <i class="fa-solid fa-file-invoice-dollar text-7xl text-gray-700"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <h4 class="text-2xl font-bold text-white mb-4">End-to-End Billing Setup</h4>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">RCM</span>
+                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medisoft</span>
+                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medicare</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-6 flex-grow">Created a seamless, stress-free billing workflow using major healthcare software platforms. Optimized cash flow by integrating automated claim submissions and accurate CPT coding.</p>
+                        <div class="mt-auto">
+                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-sky-400">BILLING DIRECTOR</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
+                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
+                        <i class="fa-solid fa-shield-halved text-7xl text-gray-700"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <h4 class="text-2xl font-bold text-white mb-4">Denial Management System</h4>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Appeals</span>
+                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">AR Recovery</span>
+                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">EOB Posting</span>
+                        </div>
+                        <p class="text-sm text-gray-400 mb-6 flex-grow">Developed an aggressive strategy for tracking payer discrepancies and resolving underpayments. Focused on delivering a dynamic approach to recover old accounts receivable.</p>
+                        <div class="mt-auto">
+                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-purple-400">RCM SPECIALIST</span></p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
+                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
+                        <i class="fa-solid fa-id-card text-7xl text-gray-700"></i>
+                    </div>
+                    <div class="p-8 flex flex-col flex-grow">
+                        <h4 class="text-2xl font-bold text-white mb-4">Provider Credentialing</h4>
+                        <div class="flex flex-wrap gap-2 mb-4">
+                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Enrollment</span>
+                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Compliance</span>
+                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full
         </div>
     </nav>
 
