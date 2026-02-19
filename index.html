@@ -84,7 +84,7 @@
             border-color: #38bdf8;
         }
         
-        /* New Custom Scroll Animations (No External Library needed) */
+        /* Custom Native Scroll Animations */
         .reveal-up {
             opacity: 0;
             transform: translateY(40px);
@@ -104,8 +104,6 @@
             opacity: 1;
             transform: translate(0);
         }
-        
-        /* Add delays for cards so they load one by one */
         .delay-100 { transition-delay: 0.1s; }
         .delay-200 { transition-delay: 0.2s; }
         .delay-300 { transition-delay: 0.3s; }
@@ -221,202 +219,27 @@
     </section>
 
     <section id="experience" class="py-20">
-        <div class="max
-    </nav>
-
-    <section class="pt-32 pb-20 px-4 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between min-h-screen">
-        <div class="md:w-1/2 mt-10 md:mt-0 z-10 opacity-0 animate-fade-in-right" style="animation-delay: 0.2s;">
-            <p class="text-xl text-gray-400 mb-4 font-medium">Hi 👋, I'm Muhammad Haris</p>
-            
-            <h1 class="text-7xl md:text-8xl font-black mb-0 leading-none text-stroke tracking-tighter">
-                MEDICAL
-            </h1>
-            <h1 class="text-6xl md:text-8xl font-black mb-6 leading-none gradient-text tracking-tighter">
-                BILLING EXPERT
-            </h1>
-            
-            <p class="text-lg text-gray-400 max-w-lg leading-relaxed mt-6">
-                Transforming denials into dollars with a seamless Revenue Cycle Management experience for US healthcare providers.
-            </p>
-        </div>
-        
-        <div class="md:w-1/2 flex justify-center md:justify-end opacity-0 animate-fade-in-left" style="animation-delay: 0.4s;">
-            <div class="relative w-80 h-80 md:w-[450px] md:h-[450px] flex justify-center items-center bg-gradient-to-t from-sky-900/40 to-transparent rounded-full border border-gray-800">
-                <div class="absolute inset-0 bg-sky-500/20 rounded-full blur-[100px]"></div>
-                <img src="Media.jpeg" alt="Muhammad Haris" class="relative z-10 w-full h-full object-contain drop-shadow-2xl p-4">
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-24 bg-[#050b14]">
-        <div class="max-w-7xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">PROJECTS</h3>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-right" data-aos-delay="100">My Recent Work</h2>
-            <p class="text-gray-400 mb-12" data-aos="fade-right" data-aos-delay="200">Here are a few past billing integration projects I've worked on</p>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-file-invoice-dollar text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">End-to-End Billing Setup</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">RCM</span>
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medisoft</span>
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medicare</span>
-                        </div>
-                        <p class="text-sm text-gray-400 mb-6 flex-grow">Created a seamless, stress-free billing workflow using major healthcare software platforms. Optimized cash flow by integrating automated claim submissions and accurate CPT coding.</p>
-                        <div class="mt-auto">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-sky-400">BILLING DIRECTOR</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-shield-halved text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">Denial Management System</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Appeals</span>
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">AR Recovery</span>
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">EOB Posting</span>
-                        </div>
-                        <p class="text-sm text-gray-400 mb-6 flex-grow">Developed an aggressive strategy for tracking payer discrepancies and resolving underpayments. Focused on delivering a dynamic approach to recover old accounts receivable.</p>
-                        <div class="mt-auto">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-purple-400">RCM SPECIALIST</span></p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-id-card text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">Provider Credentialing</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Enrollment</span>
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Compliance</span>
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full
-        </div>
-    </nav>
-
-    <section class="pt-32 pb-20 px-4 max-w-7xl mx-auto flex flex-col-reverse md:flex-row items-center justify-between min-h-screen">
-        <div class="md:w-1/2 mt-10 md:mt-0 z-10 opacity-0 animate-fade-in-right" style="animation-delay: 0.2s;">
-            <p class="text-xl text-gray-400 mb-4 font-medium">Hi 👋, I'm Muhammad Haris</p>
-            
-            <h1 class="text-7xl md:text-8xl font-black mb-0 leading-none text-stroke tracking-tighter">
-                MEDICAL
-            </h1>
-            <h1 class="text-6xl md:text-8xl font-black mb-6 leading-none gradient-text tracking-tighter">
-                BILLING EXPERT
-            </h1>
-            
-            <p class="text-lg text-gray-400 max-w-lg leading-relaxed mt-6">
-                Transforming denials into dollars with a seamless Revenue Cycle Management experience for US healthcare providers.
-            </p>
-        </div>
-        
-        <div class="md:w-1/2 flex justify-center md:justify-end opacity-0 animate-fade-in-left" style="animation-delay: 0.4s;">
-            <div class="relative w-80 h-80 md:w-[450px] md:h-[450px] flex justify-center items-end bg-gradient-to-t from-sky-900/40 to-transparent rounded-full border border-gray-800 overflow-hidden">
-                <div class="absolute inset-0 bg-sky-500/20 rounded-full blur-[100px]"></div>
-                <img src="Media.jpeg" alt="Muhammad Haris" class="relative z-10 w-[90%] object-contain drop-shadow-2xl translate-y-4">
-            </div>
-        </div>
-    </section>
-
-    <section id="projects" class="py-24 bg-[#050b14]">
-        <div class="max-w-7xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">PROJECTS</h3>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-right" data-aos-delay="100">My Recent Work</h2>
-            <p class="text-gray-400 mb-12" data-aos="fade-right" data-aos-delay="200">Here are a few past billing integration projects I've worked on</p>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-file-invoice-dollar text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">End-to-End Billing Setup</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">RCM</span>
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medisoft</span>
-                            <span class="text-xs font-semibold text-sky-400 bg-sky-400/10 px-3 py-1 rounded-full">Medicare</span>
-                        </div>
-                        <p class="text-sm text-gray-400 mb-6 flex-grow">Created a seamless, stress-free billing workflow using major healthcare software platforms. Optimized cash flow by integrating automated claim submissions and accurate CPT coding.</p>
-                        <div class="mt-auto">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-sky-400">BILLING DIRECTOR</span></p>
-                            <a href="#" class="text-sm font-bold text-white flex items-center hover:text-sky-400 transition-colors">VIEW DETAIL <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="150" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-shield-halved text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">Denial Management System</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">Appeals</span>
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">AR Recovery</span>
-                            <span class="text-xs font-semibold text-purple-400 bg-purple-400/10 px-3 py-1 rounded-full">EOB Posting</span>
-                        </div>
-                        <p class="text-sm text-gray-400 mb-6 flex-grow">Developed an aggressive strategy for tracking payer discrepancies and resolving underpayments. Focused on delivering a dynamic approach to recover old accounts receivable.</p>
-                        <div class="mt-auto">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-purple-400">RCM SPECIALIST</span></p>
-                            <a href="#" class="text-sm font-bold text-white flex items-center hover:text-purple-400 transition-colors">VIEW DETAIL <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-delay="300" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-                        <i class="fa-solid fa-id-card text-7xl text-gray-700"></i>
-                    </div>
-                    <div class="p-8 flex flex-col flex-grow">
-                        <h4 class="text-2xl font-bold text-white mb-4">Provider Credentialing</h4>
-                        <div class="flex flex-wrap gap-2 mb-4">
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Enrollment</span>
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Compliance</span>
-                            <span class="text-xs font-semibold text-pink-400 bg-pink-400/10 px-3 py-1 rounded-full">Data Entry</span>
-                        </div>
-                        <p class="text-sm text-gray-400 mb-6 flex-grow">Designed a streamlined service-oriented process focused on secure and convenient credentialing solutions for US providers, ensuring quick network enrollment.</p>
-                        <div class="mt-auto">
-                            <p class="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">ROLE: <span class="text-pink-400">CREDENTIALING EXPERT</span></p>
-                            <a href="#" class="text-sm font-bold text-white flex items-center hover:text-pink-400 transition-colors">VIEW DETAIL <i class="fa-solid fa-arrow-right ml-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="py-24">
         <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">3.5+ YEARS XP</h3>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6" data-aos="fade-right" data-aos-delay="100">What I've been up to</h2>
-            <p class="text-gray-400 mb-16" data-aos="fade-right" data-aos-delay="200">I've had the opportunity to work across different healthcare software platforms and with multiple US providers.</p>
+            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2 reveal-left">3.5+ YEARS XP</h3>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 reveal-left delay-100">What I've been up to</h2>
+            <p class="text-gray-400 mb-16 reveal-left delay-200">I've had the opportunity to work across different healthcare software platforms and with multiple US providers.</p>
             
             <div class="relative border-l border-gray-800 ml-4 md:ml-0">
-                <div class="mb-16 ml-10 relative" data-aos="fade-up" data-aos-duration="800">
+                <div class="mb-12 ml-10 relative reveal-up">
                     <span class="absolute flex items-center justify-center w-4 h-4 bg-sky-500 rounded-full -left-[49px] top-2 ring-8 ring-[#030712]"></span>
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
                         <h3 class="text-2xl font-bold text-white">Freelance Medical Billing Director</h3>
-                        <span class="text-gray-500 text-sm font-medium">2022 - Present</span>
+                        <span class="text-gray-500 text-sm font-medium mt-1 sm:mt-0">2022 - Present</span>
                     </div>
                     <h4 class="text-lg text-sky-400 font-medium mb-4">Upwork & Fiverr - Remote</h4>
                     <p class="text-gray-400 leading-relaxed">Worked on multiple long-term projects and developed custom billing solutions for clients. Collaborated closely with US providers to understand their revenue objectives and deliver tailored solutions. Implemented clean claim submission practices to ensure high-quality, maintainable cash flow.</p>
                 </div>
 
-                <div class="mb-16 ml-10 relative" data-aos="fade-up" data-aos-duration="800">
+                <div class="mb-12 ml-10 relative reveal-up delay-100">
                     <span class="absolute flex items-center justify-center w-4 h-4 bg-purple-500 rounded-full -left-[49px] top-2 ring-8 ring-[#030712]"></span>
                     <div class="flex flex-col sm:flex-row sm:items-center justify-between mb-2">
-                        <h3 class="text-2xl font-bold text-white">RCM Specialist Intern</h3>
-                        <span class="text-gray-500 text-sm font-medium">Previous Roles</span>
+                        <h3 class="text-2xl font-bold text-white">RCM Specialist</h3>
+                        <span class="text-gray-500 text-sm font-medium mt-1 sm:mt-0">Previous Roles</span>
                     </div>
                     <h4 class="text-lg text-purple-400 font-medium mb-4">On-Site Clinics - Pakistan</h4>
                     <p class="text-gray-400 leading-relaxed">Completing the RCM training was an intensive and rewarding experience. Gained comprehensive knowledge of Medisoft, ERA posting, and CPT/ICD coding. Conducted regular account reviews, provided feedback on claim errors, and successfully managed tasks related to insurance verification and denials.</p>
@@ -425,19 +248,19 @@
         </div>
     </section>
 
-    <section id="testimonials" class="py-24 bg-[#050b14] overflow-hidden">
+    <section id="testimonials" class="py-20 bg-[#050b14] overflow-hidden">
         <div class="max-w-7xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">TESTIMONIALS</h3>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6" data-aos="fade-right" data-aos-delay="100">What people say about me</h2>
-            <p class="text-gray-400 mb-16" data-aos="fade-right" data-aos-delay="200">See what people have shared about their experiences collaborating with me.</p>
+            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2 reveal-left">TESTIMONIALS</h3>
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6 reveal-left delay-100">What people say about me</h2>
+            <p class="text-gray-400 mb-12 reveal-left delay-200">See what people have shared about their experiences collaborating with me.</p>
             
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-card p-10 rounded-2xl border border-borderGray" data-aos="fade-up" data-aos-duration="800">
+                <div class="bg-card p-10 rounded-2xl border border-borderGray reveal-up delay-100">
                     <h5 class="text-xl text-white font-bold mb-1">Healthcare Provider</h5>
                     <p class="text-gray-400 italic mb-6 leading-relaxed">"Extraordinary professional! It has been an honor to work with Haris. He is deliberate with his revenue cycle management work and implements with great attention to every detail. For me, one of his most important skill sets is his ability to self-manage and recover lost revenue."</p>
                 </div>
 
-                <div class="bg-card p-10 rounded-2xl border border-borderGray" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">
+                <div class="bg-card p-10 rounded-2xl border border-borderGray reveal-up delay-200">
                     <h5 class="text-xl text-white font-bold mb-1">Practice Manager</h5>
                     <p class="text-gray-400 italic mb-6 leading-relaxed">"Haris is an exceptional billing specialist specializing in end-to-end RCM. His expertise and dedication have been invaluable in delivering accurate claim submissions. His proactive approach, logical reasoning, and effective communication make him a joy to collaborate with. Highly recommended."</p>
                 </div>
@@ -445,10 +268,10 @@
         </div>
     </section>
 
-    <section id="services" class="py-24">
+    <section id="services" class="py-20">
         <div class="max-w-7xl mx-auto px-4">
             <div class="flex flex-col md:flex-row gap-12">
-                <div class="md:w-1/2" data-aos="fade-right">
+                <div class="md:w-1/2 reveal-left">
                     <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2">SERVICES</h3>
                     <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">What I can do for you</h2>
                     <p class="text-gray-400 mb-8">I can help you with the following</p>
@@ -458,16 +281,16 @@
                     </h3>
                 </div>
                 
-                <div class="md:w-1/2 flex flex-col justify-center gap-6" data-aos="fade-left">
-                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-sky-400 transition-colors">
+                <div class="md:w-1/2 flex flex-col justify-center gap-6">
+                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-sky-400 transition-colors reveal-right delay-100">
                         <i class="fa-solid fa-laptop-medical text-4xl text-sky-400 w-12 text-center"></i>
                         <h4 class="text-2xl font-bold text-white">Revenue Cycle Management</h4>
                     </div>
-                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-purple-400 transition-colors">
+                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-purple-400 transition-colors reveal-right delay-200">
                         <i class="fa-solid fa-money-bill-trend-up text-4xl text-purple-400 w-12 text-center"></i>
                         <h4 class="text-2xl font-bold text-white">Denial Management</h4>
                     </div>
-                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-pink-400 transition-colors">
+                    <div class="flex items-center gap-6 p-6 rounded-2xl border border-gray-800 hover:border-pink-400 transition-colors reveal-right delay-300">
                         <i class="fa-solid fa-user-doctor text-4xl text-pink-400 w-12 text-center"></i>
                         <h4 class="text-2xl font-bold text-white">Provider Credentialing</h4>
                     </div>
@@ -476,560 +299,60 @@
         </div>
     </section>
 
-    <section id="contact" class="py-24 bg-[#050b14]">
+    <section id="contact" class="py-20 bg-[#050b14]">
         <div class="max-w-7xl mx-auto px-4 text-center">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-up">CONTACT</h3>
+            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2 reveal-up">CONTACT</h3>
             
-            <div class="my-10 flex justify-center" data-aos="fade-up" data-aos-delay="100">
+            <div class="my-8 flex justify-center reveal-up delay-100">
                 <img src="Media.jpeg" alt="Profile" class="w-24 h-24 rounded-full object-cover border-2 border-gray-700">
             </div>
             
-            <h2 class="text-4xl md:text-6xl font-bold text-white mb-8" data-aos="fade-up" data-aos-delay="200">Available for work</h2>
-            <p class="text-gray-400 mb-4" data-aos="fade-up" data-aos-delay="300">Drop me a line or say 👋 on social networks</p>
-            <p class="text-gray-400 max-w-2xl mx-auto mb-12 leading-relaxed" data-aos="fade-up" data-aos-delay="400">
-                Whether you're a clinic or a startup se
-    <section id="projects" class="py-24 bg-[#050b14]">
-        <div class="max-w-7xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-[0.2em] text-gray-400 uppercase mb-2" data-aos="fade-right">PROJECTS</h3>
-            <h2 class="text-4xl md:text-5xl font-bold text-white mb-4" data-aos="fade-right" data-aos-delay="100">My Recent Work</h2>
-            <p class="text-gray-400 mb-12" data-aos="fade-right" data-aos-delay="200">Here are a few past billing integration projects I've worked on</p>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-card rounded-2xl overflow-hidden card-hover border border-borderGray transition-all duration-300 flex flex-col h-full" data-aos="fade-up" data-aos-duration="800">
-                    <div class="h-56 bg-[#0a0f1c] flex items-center justify-center border-b border-borderGray relative p-6">
-    </section>
-
-    <section id="projects" class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">My Recent Work</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">Here are a few past projects I've worked on</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-file-invoice-dollar text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">RCM Setup</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Medisoft</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">End-to-End Billing Integration</h4>
-                        <p class="text-sm text-slate-400 mb-4">Complete setup and management of medical billing accounts across major US healthcare software platforms, optimizing workflows.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: BILLING DIRECTOR</p>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-shield-halved text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Appeals</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">AR Recovery</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">Denial Management System</h4>
-                        <p class="text-sm text-slate-400 mb-4">Aggressive follow-up and strategic appeals implementation to recover lost revenue and prevent future claim rejections.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: RCM SPECIALIST</p>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-id-card text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Enrollment</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Compliance</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">Provider Credentialing</h4>
-                        <p class="text-sm text-slate-400 mb-4">Streamlined enrollment and credentialing services to ensure US providers are in-network and ready to bill with commercial insurances.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: CREDENTIALING EXPERT</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="py-20">
-        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">3.5+ YEARS XP</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">What I've been up to</h2>
-            
-            <div class="relative border-l border-slate-700 ml-3 md:ml-0">
-                
-                <div class="mb-10 ml-8 relative" data-aos="fade-up" data-aos-duration="800">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-briefcase text-white text-xs"></i>
-                    </span>
-                    <h3 class="flex flex-wrap items-center mb-1 text-lg font-semibold text-white">Freelance Medical Billing Director <span class="bg-sky-900 text-sky-300 text-sm font-medium mt-1 sm:mt-0 mr-2 px-2.5 py-0.5 rounded sm:ml-3">Upwork & Fiverr - Remote</span></h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">2022 - Present</time>
-                    <p class="mb-4 text-base font-normal text-slate-400">Successfully developed custom billing solutions for multiple healthcare clients. Collaborated closely with US providers to understand their revenue objectives. Executed claim submissions, managed complex AR follow-ups, and tracked payer discrepancies to ensure maximum reimbursements and zero revenue leakage.</p>
-                </div>
-
-                <div class="mb-10 ml-8 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-slate-700 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-chart-line text-slate-300 text-xs"></i>
-                    </span>
-                    <h3 class="mb-1 text-lg font-semibold text-white">RCM Specialist</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">Previous Roles</time>
-                    <p class="text-base font-normal text-slate-400">Gained comprehensive hands-on experience in full-cycle medical billing. Mastered ERA/EOB posting, CPT & ICD codes, and healthcare software systems like Medisoft. Conducted regular account resolutions, appealed insurance denials, and maintained strict confidentiality protocols.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="py-20 bg-slate-800/50 overflow-hidden">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">TESTIMONIALS</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">What clients say about me</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 relative" data-aos="fade-up" data-aos-duration="800">
-                    <i class="fa-solid fa-quote-left text-4xl text-sky-900 absolute top-4 left-4 opacity-50"></i>
-                    <p class="text-slate-400 italic mb-6 relative z-10 pt-4">"Extraordinary professional! It has been an honor to work with Haris. He is deliberate with his RCM work and implements with great attention to every detail. He recovered old AR we thought was completely lost."</p>
-                    <div class="flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center mr-3">
-                            <i class="fa-solid fa-user text-slate-400"></i>
-                        </div>
-                        <div>
-                            <h5 class="text-white font-bold">Healthcare Provider</h5>
-                            <span class="text-sky-400 text-xs uppercase">US Clinic</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <i class="fa-solid fa-quote-left text-4xl text-sky-900 absolute top-4 left-4 opacity-50"></i>
-                    <p class="text-slate-400 italic mb-6 relative z-10 pt-4">"Haris is an exceptional billing specialist. His expertise in denial management and coding has been invaluable. His proactive approach and effective communication make him a joy to collaborate with. Highly recommended."</p>
-                    <div class="flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center mr-3">
-                            <i class="fa-solid fa-user text-slate-400"></i>
-                        </div>
-                        <div>
-                            <h5 class="text-white font-bold">Practice Manager</h5>
-                            <span class="text-sky-400 text-xs uppercase">Medical Group</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-up">SERVICES</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-up" data-aos-delay="100">What I can do for you</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-laptop-medical text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">Revenue Cycle Management</h4>
-                    <p class="text-slate-400 text-sm">Full spectrum financial process management using top industry software to ensure maximum clinic profitability.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-money-bill-trend-up text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">AR Follow-up & Denials</h4>
-                    <p class="text-slate-400 text-sm">Targeted strategies to recover old accounts receivable and aggressively appeal denied claims.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-user-doctor text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">Provider Credentialing</h4>
-                    <p class="text-slate-400 text-sm">Navigating complex insurance panels to get your practice correctly enrolled and contracted.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-slate-800/50">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <div class="inline-block p-4 rounded-full bg-slate-800 border-2 border-slate-700 mb-6 shadow-lg shadow-sky-900/20" data-aos="zoom-in">
-                <img src="profile.jpg" alt="Profile" class="w-16 h-16 rounded-full object-cover">
-            </div>
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-up">Available for work</h3>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6" data-aos="fade-up" data-aos-delay="100">Drop me a line or say 👋 on social networks</h2>
-            <p class="text-lg text-slate-400 mb-10" data-aos="fade-up" data-aos-delay="200">
-                Whether you're a clinic or a single provider seeking to transform your billing process into exceptional revenue, I'm here to collaborate. Feel free to reach out, and let's turn those denials into dollars! 💼💰
+            <h2 class="text-4xl md:text-6xl font-bold text-white mb-6 reveal-up delay-200">Available for work</h2>
+            <p class="text-gray-400 mb-4 reveal-up delay-300">Drop me a line or say 👋 on social networks</p>
+            <p class="text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed reveal-up delay-300">
+                Whether you're a clinic or a startup seeking to transform your revenue cycle into an exceptional financial asset, I'm here to collaborate and bring your vision to life. Feel free to reach out, and let's turn your ideas into reality! 💻📱
             </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up" data-aos-delay="300">
-                <a href="mailto:harrych554@gmail.com" class="bg-sky-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-sky-600 transition-colors shadow-lg shadow-sky-500/30 flex items-center gap-2 hover:-translate-y-1 transform duration-200">
-                    <i class="fa-solid fa-envelope"></i> harrych554@gmail.com
+            
+            <div class="reveal-up delay-300">
+                <a href="mailto:harrych554@gmail.com" class="text-2xl md:text-4xl font-black text-white hover:text-sky-400 transition-colors inline-block relative group">
+                    harrych554@gmail.com
+                    <span class="absolute -bottom-2 left-0 w-0 h-1 bg-sky-400 transition-all duration-300 group-hover:w-full"></span>
                 </a>
-                <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank    </section>
-
-    <section id="projects" class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">My Recent Work</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">Here are a few past projects I've worked on</h2>
+            </div>
             
-            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-file-invoice-dollar text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">RCM Setup</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Medisoft</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">End-to-End Billing Integration</h4>
-                        <p class="text-sm text-slate-400 mb-4">Complete setup and management of medical billing accounts across major US healthcare software platforms, optimizing workflows.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: BILLING DIRECTOR</p>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-delay="100" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-shield-halved text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Appeals</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">AR Recovery</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">Denial Management System</h4>
-                        <p class="text-sm text-slate-400 mb-4">Aggressive follow-up and strategic appeals implementation to recover lost revenue and prevent future claim rejections.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: RCM SPECIALIST</p>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 rounded-xl overflow-hidden card-hover border border-slate-700" data-aos="fade-up" data-aos-delay="200" data-aos-duration="800">
-                    <div class="h-48 bg-slate-800 flex items-center justify-center border-b border-slate-700 relative overflow-hidden group">
-                        <div class="absolute inset-0 bg-sky-900/20 group-hover:bg-sky-900/40 transition-colors"></div>
-                        <i class="fa-solid fa-id-card text-5xl text-sky-400 transform group-hover:scale-110 transition-transform duration-300"></i>
-                    </div>
-                    <div class="p-6">
-                        <div class="flex gap-2 mb-4 text-xs font-semibold text-sky-300">
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Enrollment</span>
-                            <span class="bg-sky-900/50 px-2 py-1 rounded">Compliance</span>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">Provider Credentialing</h4>
-                        <p class="text-sm text-slate-400 mb-4">Streamlined enrollment and credentialing services to ensure US providers are in-network and ready to bill with commercial insurances.</p>
-                        <p class="text-xs text-sky-400 font-bold uppercase tracking-wider">ROLE: CREDENTIALING EXPERT</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="py-20">
-        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">3.5+ YEARS XP</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">What I've been up to</h2>
-            
-            <div class="relative border-l border-slate-700 ml-3 md:ml-0">
-                
-                <div class="mb-10 ml-8 relative" data-aos="fade-up" data-aos-duration="800">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-briefcase text-white text-xs"></i>
-                    </span>
-                    <h3 class="flex flex-wrap items-center mb-1 text-lg font-semibold text-white">Freelance Medical Billing Director <span class="bg-sky-900 text-sky-300 text-sm font-medium mt-1 sm:mt-0 mr-2 px-2.5 py-0.5 rounded sm:ml-3">Upwork & Fiverr - Remote</span></h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">2022 - Present</time>
-                    <p class="mb-4 text-base font-normal text-slate-400">Successfully developed custom billing solutions for multiple healthcare clients. Collaborated closely with US providers to understand their revenue objectives. Executed claim submissions, managed complex AR follow-ups, and tracked payer discrepancies to ensure maximum reimbursements and zero revenue leakage.</p>
-                </div>
-
-                <div class="mb-10 ml-8 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-slate-700 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-chart-line text-slate-300 text-xs"></i>
-                    </span>
-                    <h3 class="mb-1 text-lg font-semibold text-white">RCM Specialist</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">Previous Roles</time>
-                    <p class="text-base font-normal text-slate-400">Gained comprehensive hands-on experience in full-cycle medical billing. Mastered ERA/EOB posting, CPT & ICD codes, and healthcare software systems like Medisoft. Conducted regular account resolutions, appealed insurance denials, and maintained strict confidentiality protocols.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="testimonials" class="py-20 bg-slate-800/50 overflow-hidden">
-        <div class="max-w-6xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-right">TESTIMONIALS</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-right" data-aos-delay="100">What clients say about me</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 relative" data-aos="fade-up" data-aos-duration="800">
-                    <i class="fa-solid fa-quote-left text-4xl text-sky-900 absolute top-4 left-4 opacity-50"></i>
-                    <p class="text-slate-400 italic mb-6 relative z-10 pt-4">"Extraordinary professional! It has been an honor to work with Haris. He is deliberate with his RCM work and implements with great attention to every detail. He recovered old AR we thought was completely lost."</p>
-                    <div class="flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center mr-3">
-                            <i class="fa-solid fa-user text-slate-400"></i>
-                        </div>
-                        <div>
-                            <h5 class="text-white font-bold">Healthcare Provider</h5>
-                            <span class="text-sky-400 text-xs uppercase">US Clinic</span>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="bg-slate-900 p-8 rounded-xl border border-slate-700 relative" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">
-                    <i class="fa-solid fa-quote-left text-4xl text-sky-900 absolute top-4 left-4 opacity-50"></i>
-                    <p class="text-slate-400 italic mb-6 relative z-10 pt-4">"Haris is an exceptional billing specialist. His expertise in denial management and coding has been invaluable. His proactive approach and effective communication make him a joy to collaborate with. Highly recommended."</p>
-                    <div class="flex items-center">
-                        <div class="w-10 h-10 rounded-full bg-slate-700 flex items-center justify-center mr-3">
-                            <i class="fa-solid fa-user text-slate-400"></i>
-                        </div>
-                        <div>
-                            <h5 class="text-white font-bold">Practice Manager</h5>
-                            <span class="text-sky-400 text-xs uppercase">Medical Group</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-up">SERVICES</h3>
-            <h2 class="text-3xl font-bold text-white mb-12" data-aos="fade-up" data-aos-delay="100">What I can do for you</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-laptop-medical text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">Revenue Cycle Management</h4>
-                    <p class="text-slate-400 text-sm">Full spectrum financial process management using top industry software to ensure maximum clinic profitability.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="100">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-money-bill-trend-up text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">AR Follow-up & Denials</h4>
-                    <p class="text-slate-400 text-sm">Targeted strategies to recover old accounts receivable and aggressively appeal denied claims.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover" data-aos="zoom-in" data-aos-duration="600" data-aos-delay="200">
-                    <div class="w-16 h-16 mx-auto bg-sky-900/30 rounded-full flex items-center justify-center mb-6">
-                        <i class="fa-solid fa-user-doctor text-3xl text-sky-400"></i>
-                    </div>
-                    <h4 class="text-xl font-bold text-white mb-3">Provider Credentialing</h4>
-                    <p class="text-slate-400 text-sm">Navigating complex insurance panels to get your practice correctly enrolled and contracted.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-slate-800/50">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <div class="inline-block p-4 rounded-full bg-slate-800 border-2 border-slate-700 mb-6 shadow-lg shadow-sky-900/20" data-aos="zoom-in">
-                <img src="profile.jpg" alt="Profile" class="w-16 h-16 rounded-full object-cover">
-            </div>
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2" data-aos="fade-up">Available for work</h3>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6" data-aos="fade-up" data-aos-delay="100">Drop me a line or say 👋 on social networks</h2>
-            <p class="text-lg text-slate-400 mb-10" data-aos="fade-up" data-aos-delay="200">
-                Whether you're a clinic or a single provider seeking to transform your billing process into exceptional revenue, I'm here to collaborate. Feel free to reach out, and let's turn those denials into dollars! 💼💰
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4" data-aos="fade-up" data-aos-delay="300">
-                <a href="mailto:harrych554@gmail.com" class="bg-sky-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-sky-600 transition-colors shadow-lg shadow-sky-500/30 flex items-center gap-2 hover:-translate-y-1 transform duration-200">
-                    <i class="fa-solid fa-envelope"></i> harrych554@gmail.com
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">My Journey</h3>
-            <h2 class="text-3xl font-bold text-white mb-12">Experience & Education</h2>
-            
-            <div class="relative border-l border-slate-700 ml-3 md:ml-0">
-                
-                <div class="mb-10 ml-8 relative">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-briefcase text-white text-xs"></i>
-                    </span>
-                    <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Freelance Medical Billing Director <span class="bg-sky-900 text-sky-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">RCM Specialist</span></h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">2022 - Present</time>
-                    <p class="mb-4 text-base font-normal text-slate-400">Successfully managing end-to-end RCM operations, denial management, and insurance credentialing for US-based providers. Consistently recovering lost revenue through strategic appeals and detailed account resolution.</p>
-                </div>
-
-                <div class="mb-10 ml-8 relative">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-slate-700 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-graduation-cap text-slate-300 text-xs"></i>
-                    </span>
-                    <h3 class="mb-1 text-lg font-semibold text-white">Government College University, Faisalabad</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">Jan 2019 - Oct 2023</time>
-                    <p class="text-base font-normal text-slate-400">Bachelor of Science (BS) in Information Technology. Graduated with Grade: B. Leveraged IT background to quickly master complex billing software, generative AI, and database management for healthcare.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-slate-800/50">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <div class="inline-block p-4 rounded-full bg-slate-800 border-2 border-slate-700 mb-6 shadow-lg shadow-sky-900/20">
-                <i class="fa-solid fa-envelope-open-text text-4xl text-sky-400"></i>
-            </div>
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Available for Work</h3>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Let's optimize your billing!</h2>
-            <p class="text-lg text-slate-400 mb-10">
-                Whether you're looking for clean claim submissions, aggressive denial management, or full RCM support, I'm here to help. Drop me a line! 💻📱
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="mailto:harrych554@gmail.com" class="bg-sky-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-sky-600 transition-colors shadow-lg shadow-sky-500/30 flex items-center gap-2">
-                    <i class="fa-solid fa-paper-plane"></i> harrych554@gmail.com
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank" class="bg-slate-800 text-white border border-slate-600 px-8 py-4 rounded-lg font-bold text-lg hover:border-sky-400 hover:text-sky-400 transition-colors flex items-center gap-2">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
+            <div class="mt-10 flex justify-center gap-6 reveal-up delay-300">
+              <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank" class="w-12 h-12 rounded-full border border-gray-700 flex items-center justify-center text-gray-400 hover:text-white hover:border-white transition-all hover:-translate-y-1">
+                    <i class="fa-brands fa-linkedin-in"></i>
                 </a>
             </div>
         </div>
     </section>
 
-    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
+    <footer class="border-t border-gray-800 py-8 text-center text-gray-600 text-sm bg-[#030712]">
         <p>&copy; 2026 Muhammad Haris. All rights reserved.</p>
     </footer>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const reveals = document.querySelectorAll(".reveal-up, .reveal-left, .reveal-right");
+            const observerOptions = {
+                root: null,
+                rootMargin: "0px",
+                threshold: 0.1 
+            };
+            const observer = new IntersectionObserver(function(entries, observer) {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add("active");
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+            reveals.forEach(reveal => {
+                observer.observe(reveal);
+            });
+        });
+    </script>
 </body>
-</html>
-        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">My Journey</h3>
-            <h2 class="text-3xl font-bold text-white mb-12">Experience & Education</h2>
-            
-            <div class="relative border-l border-slate-700 ml-3 md:ml-0">
-                
-                <div class="mb-10 ml-8 relative">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-briefcase text-white text-xs"></i>
-                    </span>
-                    <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Freelance Medical Billing Director <span class="bg-sky-900 text-sky-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">RCM Specialist</span></h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">2022 - Present</time>
-                    <p class="mb-4 text-base font-normal text-slate-400">Successfully managing end-to-end RCM operations, denial management, and insurance credentialing for US-based providers. Consistently recovering lost revenue through strategic appeals and detailed account resolution.</p>
-                </div>
-
-                <div class="mb-10 ml-8 relative">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-slate-700 rounded-full -left-11 ring-8 ring-[#0f172a]">
-                        <i class="fa-solid fa-graduation-cap text-slate-300 text-xs"></i>
-                    </span>
-                    <h3 class="mb-1 text-lg font-semibold text-white">Government College University, Faisalabad</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">Jan 2019 - Oct 2023</time>
-                    <p class="text-base font-normal text-slate-400">Bachelor of Science (BS) in Information Technology. Graduated with Grade: B. Leveraged IT background to quickly master complex billing software, generative AI, and database management for healthcare.</p>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20 bg-slate-800/50">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <div class="inline-block p-4 rounded-full bg-slate-800 border-2 border-slate-700 mb-6 shadow-lg shadow-sky-900/20">
-                <i class="fa-solid fa-envelope-open-text text-4xl text-sky-400"></i>
-            </div>
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Available for Work</h3>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Let's optimize your billing!</h2>
-            <p class="text-lg text-slate-400 mb-10">
-                Whether you're looking for clean claim submissions, aggressive denial management, or full RCM support, I'm here to help. Drop me a line! 💻📱
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="mailto:harrych554@gmail.com" class="bg-sky-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-sky-600 transition-colors shadow-lg shadow-sky-500/30 flex items-center gap-2">
-                    <i class="fa-solid fa-paper-plane"></i> harrych554@gmail.com
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank" class="bg-slate-800 text-white border border-slate-600 px-8 py-4 rounded-lg font-bold text-lg hover:border-sky-400 hover:text-sky-400 transition-colors flex items-center gap-2">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
-        <p>&copy; 2026 Muhammad Haris. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
-                        </div>
-                        <h4 class="text-xl font-bold text-white mb-2">Provider Credentialing</h4>
-                        <p class="text-sm text-slate-400 mb-4">Streamlined enrollment and credentialing services to ensure US providers are in-network and ready to bill.</p>
-                        <p class="text-xs text-slate-500 font-bold uppercase tracking-wider">Role: Credentialing Expert</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="experience" class="py-20">
-        <div class="max-w-4xl mx-auto px-4">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">3+ Years Experience</h3>
-            <h2 class="text-3xl font-bold text-white mb-12">What I've been up to</h2>
-            
-            <div class="relative border-l border-slate-700 ml-3 md:ml-0">
-                <div class="mb-10 ml-8">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-sky-500 rounded-full -left-3 ring-8 ring-slate-900">
-                        <i class="fa-solid fa-briefcase text-white text-xs"></i>
-                    </span>
-                    <h3 class="flex items-center mb-1 text-lg font-semibold text-white">Freelance Medical Billing Director <span class="bg-sky-900 text-sky-300 text-sm font-medium mr-2 px-2.5 py-0.5 rounded ml-3">Fiverr / Upwork</span></h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">2022 - Present</time>
-                    <p class="mb-4 text-base font-normal text-slate-400">Successfully managed RCM operations for multiple US-based clinics. Created highly converting service catalogs and gig profiles. Delivered consistent revenue growth by systematically addressing AR aging reports and turning denials into dollars.</p>
-                </div>
-                <div class="mb-10 ml-8">
-                    <span class="absolute flex items-center justify-center w-6 h-6 bg-slate-700 rounded-full -left-3 ring-8 ring-slate-900">
-                        <i class="fa-solid fa-chart-line text-slate-300 text-xs"></i>
-                    </span>
-                    <h3 class="mb-1 text-lg font-semibold text-white">RCM Specialist</h3>
-                    <time class="block mb-2 text-sm font-normal leading-none text-slate-500">Previous Roles</time>
-                    <p class="text-base font-normal text-slate-400">Mastered various medical billing softwares. Handled charge entry, payment posting, and patient demographics. Communicated directly with insurance reps to resolve complex claim issues.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="services" class="py-20 bg-slate-800/50">
-        <div class="max-w-6xl mx-auto px-4 text-center">
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Services</h3>
-            <h2 class="text-3xl font-bold text-white mb-12">What I can do for you</h2>
-            
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover">
-                    <i class="fa-solid fa-laptop-medical text-4xl text-sky-400 mb-4"></i>
-                    <h4 class="text-xl font-bold text-white mb-3">Revenue Cycle Management</h4>
-                    <p class="text-slate-400 text-sm">Full spectrum financial process management using top industry software to ensure maximum clinic profitability.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover">
-                    <i class="fa-solid fa-money-bill-trend-up text-4xl text-sky-400 mb-4"></i>
-                    <h4 class="text-xl font-bold text-white mb-3">AR Follow-up & Denials</h4>
-                    <p class="text-slate-400 text-sm">Targeted strategies to recover old accounts receivable and aggressively appeal denied claims.</p>
-                </div>
-                <div class="p-8 bg-slate-900 rounded-xl border border-slate-700 card-hover">
-                    <i class="fa-solid fa-user-doctor text-4xl text-sky-400 mb-4"></i>
-                    <h4 class="text-xl font-bold text-white mb-3">Provider Credentialing</h4>
-                    <p class="text-slate-400 text-sm">Navigating complex insurance panels to get your practice correctly enrolled and contracted.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="contact" class="py-20">
-        <div class="max-w-3xl mx-auto px-4 text-center">
-            <div class="inline-block p-4 rounded-full bg-slate-800 border-2 border-slate-700 mb-6 shadow-lg shadow-sky-900/20">
-                <i class="fa-solid fa-envelope-open-text text-4xl text-sky-400"></i>
-            </div>
-            <h3 class="text-sm font-bold tracking-widest text-sky-400 uppercase mb-2">Available for Work</h3>
-            <h2 class="text-3xl md:text-4xl font-bold text-white mb-6">Let's optimize your billing!</h2>
-            <p class="text-lg text-slate-400 mb-10">
-                Whether you're a single practitioner or a large clinic looking to streamline your revenue cycle, I'm here to help. Feel free to reach out, and let's turn those denials into dollars! 💼💰
-            </p>
-            <div class="flex flex-col sm:flex-row justify-center items-center gap-4">
-                <a href="mailto:your-email@example.com" class="bg-sky-500 text-white px-8 py-4 rounded-lg font-bold text-lg hover:bg-sky-600 transition-colors shadow-lg shadow-sky-500/30 flex items-center gap-2">
-                    <i class="fa-solid fa-paper-plane"></i> Email Me
-                </a>
-                <a href="https://www.linkedin.com/in/muhammad-haris19" target="_blank" class="bg-slate-800 text-white border border-slate-600 px-8 py-4 rounded-lg font-bold text-lg hover:border-sky-400 hover:text-sky-400 transition-colors flex items-center gap-2">
-                    <i class="fa-brands fa-linkedin"></i> LinkedIn
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <footer class="border-t border-slate-800 py-8 text-center text-slate-500 text-sm">
-        <p>&copy; 2026 Muhammad Haris. All rights reserved.</p>
-    </footer>
-
-</body>
-</html>
+</html>  
+              
